@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------  HEADER  -----------*/
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #F03C42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    color: #FFF964;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*-----------  FOOD MENU  -----------*/
+
+.food-menu{
+    background-color: #E5E5E5;
+    padding: 20px 15px;
+}
+
+.food-menu .card-item{
+    background-color: #ffffff;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 960px;
+   
+}
+
+.food-menu .card-item img{
+    border-radius: 12px 0 0 12px;
+    
+}
+
+.food-menu .card-item .item-information{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.food-menu .card-item .item-name{
+    color: #5E5E5E;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.food-menu .card-item .item-description{
+    color: #5E5E5E;
+    font-size: 14px;
+   
+    
+}
+
+.food-menu .card-item .item-price{
+    color: #02B814;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/*-----------  COMMENTS  -----------*/
+
+.comments{
+    padding: 20px 15px;
+}
+
+.comment-container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.comments h2{
+    text-align: center;
+    color: #5E5E5E;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    
+}
+
+.comments .comment-item{
+    background-color: #FFF964;
+    border-radius: 12px;
+    margin: 20px 0;
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    padding: 25px 20px;
+}
+
+.comments .comment-item p{
+    color: #F03C42;
+    font-size: 16px;
+}
+
+
+
+/*-----------  FOOTER -----------*/
+
+footer{
+    height: 120px;
+    background-color: #F03C42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 120px);
+    max-width: 960px;
+}
+
+.contact .address{
+    color: #FFF964;
+    font-style: italic;
+}
+
+.contact .instagram{
+    color: #FFF964;
+    text-decoration: none;
+}
